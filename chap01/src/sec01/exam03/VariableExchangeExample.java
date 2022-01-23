@@ -1,4 +1,4 @@
-package sec03.exam01;
+package sec01.exam03;
 
 public class VariableExchangeExample {
 
