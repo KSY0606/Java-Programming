@@ -8,7 +8,10 @@ public class VariableScopeExample {
 			int v2;
 			v2 = v1 - 10;
 		}
-		 int v3 = v1 + v2 + 5; // v2 변수는 if블록에서 사용되어 컴파일 에러가 발생한다.
+		
+		int v3 = v1 + 5;
+		
+		// int v3 = v1 + v2 + 5;          v2 변수는 if블록에서 사용되어 컴파일 에러가 발생한다.
 		
 		
 		
