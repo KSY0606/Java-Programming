@@ -14,6 +14,7 @@ public class IfElseExample {
 		}
 		
 		System.out.println("종료"); // 위 코드가 실행된 후 이 코드가 실행된다   
+	
 		
-	}
-}
+	} 
+} 
