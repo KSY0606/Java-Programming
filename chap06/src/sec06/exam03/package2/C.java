@@ -3,5 +3,5 @@ package sec06.exam03.package2;
 import sec06.exam03.package1.A;
 
 public class C {
-	A field; // ´Ù¸¥ ÆĞÅ°ÁöÀÌ±â ¶§¹®¿¡ import ÀÛ¼ºÇØÁà¾ßÇÔ
+	A field; // ë‹¤ë¥¸ íŒ¨í‚¤ì§€ì´ê¸° ë•Œë¬¸ì— import ì‘ì„±í•´ì¤˜ì•¼í•¨
 }
