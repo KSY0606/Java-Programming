@@ -10,10 +10,10 @@ public class PrintStreamExample {
 		FileOutputStream fos = new FileOutputStream("C:/Temp/printstream.txt");
 		PrintStream ps = new PrintStream(fos);
 		
-		ps.println("[ÇÁ¸°ÅÍ º¸Á¶ ½ºÆ®¸²]");
-		ps.print("¸¶Ä¡");
-		ps.println("ÇÁ¸°ÅÍ°¡ Ãâ·ÂÇÏ´Â °ÍÃ³·³");
-		ps.println("µ¥ÀÌÅÍ¸¦ Ãâ·ÂÇÕ´Ï´Ù.");
+		ps.println("[í”„ë¦°í„° ë³´ì¡° ìŠ¤íŠ¸ë¦¼]");
+		ps.print("ë§ˆì¹˜");
+		ps.println("í”„ë¦°í„°ê°€ ì¶œë ¥í•˜ëŠ” ê²ƒì²˜ëŸ¼");
+		ps.println("ë°ì´í„°ë¥¼ ì¶œë ¥í•©ë‹ˆë‹¤.");
 		
 		ps.flush();
 		ps.close();
