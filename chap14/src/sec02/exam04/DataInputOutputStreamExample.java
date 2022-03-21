@@ -6,18 +6,18 @@ public class DataInputOutputStreamExample {
 
 	public static void main(String[] args) throws Exception{
 
-		FileOutputStream fos = new FileOutputStream("C:/Temp/primitive.db"); // ¹ÙÀÌÆ® ±â¹İ Ãâ·Â½ºÆ®¸²À» »ı¼ºÇÏ°í dataOutputStream º¸Á¶ ½ºÆ®¸² ¿¬°á
+		FileOutputStream fos = new FileOutputStream("C:/Temp/primitive.db"); // ë°”ì´íŠ¸ ê¸°ë°˜ ì¶œë ¥ìŠ¤íŠ¸ë¦¼ì„ ìƒì„±í•˜ê³  dataOutputStream ë³´ì¡° ìŠ¤íŠ¸ë¦¼ ì—°ê²°
 		DataOutputStream dos = new DataOutputStream(fos);
 		
-		dos.writeUTF("È«±æµ¿"); // ±âº» Å¸ÀÔ°ª Ãâ·Â
+		dos.writeUTF("í™ê¸¸ë™"); // ê¸°ë³¸ íƒ€ì…ê°’ ì¶œë ¥
 		dos.writeDouble(95.5);
 		dos.writeInt(1);
 		
-		dos.writeUTF("±èÀÚ¹Ù");
+		dos.writeUTF("ê¹€ìë°”");
 		dos.writeDouble(90.3);
 		dos.writeInt(2);
 		
-		dos.flush(); dos.close(); // Ãâ·Â ½ºÆ®¸² ´İ±â
+		dos.flush(); dos.close(); // ì¶œë ¥ ìŠ¤íŠ¸ë¦¼ ë‹«ê¸°
 		
 		FileInputStream fis = new FileInputStream("C:/Temp/primitive.db");
 		DataInputStream dis = new DataInputStream(fis);
